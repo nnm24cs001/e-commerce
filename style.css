@@ -1,0 +1,90 @@
+h2{
+    text-align: center;
+    color: white;
+}
+.header{
+    background-color: black;
+    display: flex ;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+.signin{
+    background-color:aqua;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.signin a{
+    color: black;
+    text-decoration: none;
+}
+.signout{
+    background-color:aqua;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.signout a{
+    color: black;
+    text-decoration: none;
+}
+.signin :hover{
+    color: white;
+}
+.signout :hover{
+    color: white;
+}
+h3{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    border: 1px;
+    border-color: blue;
+    padding: 5px;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 32px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+}
+.wrapper{
+    background: transparent;
+    border:2px solid rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0,0,0);
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+body{
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
