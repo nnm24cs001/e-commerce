@@ -6,7 +6,7 @@ h2{
     background-color: black;
     display: flex ;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
 }
 .footer{
@@ -16,48 +16,26 @@ h2{
     text-align: center;
     background-color: black;
     color: white;
-    padding: 30px 0;
+    padding: 50px 0;
 }
-.signin{
+.signin,.signout{
     background-color:aqua;
     border: black;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 12px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 0;
     cursor: pointer;
 }
-.signin a{
+.signin a,.signout a{
     color: black;
     text-decoration: none;
 }
-.signout{
-    background-color:aqua;
-    border: black;
+.signin :hover,.signout :hover{
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-.signout a{
-    color: black;
-    text-decoration: none;
-}
-.signin :hover{
-    color: white;
-}
-.signout :hover{
-    color: white;
-}
-h3{
-    text-align: center;
 }
 .container{
     text-align: center;
@@ -69,10 +47,9 @@ button {
     background-color: #04AA6D;
     color: white;
     padding: 15px 32px;
-    margin: 8px 0;
+    margin: 7px 0;
     border: none;
     cursor: pointer;
-    width: 8%;
     opacity: 0.9;
 }
 .wrapper{
@@ -81,10 +58,26 @@ button {
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgb(0,0,0);
     border-radius: 20px;
-    padding: 30px 40px;
+    padding: 10px 40px;
+    margin-left: 550px;
+    margin-right: 550px;
 }
 body{
-    background-image: url(download.jpeg);
+    background-image: url(upscaled.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.right {
+    display: flex;
+    gap: 10px;
+    margin-left: 1100px;
+    flex-direction: row;
+}
+h1{
+    text-align: center;
+    color: black;
 }
